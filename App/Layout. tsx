@@ -1,0 +1,20 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Omwanzu The Chauffeur | Nakuru, Kenya',
+  description:
+    'Thoughtful chauffeur services, airport transfers and private journeys in Nakuru and beyond.',
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
+
