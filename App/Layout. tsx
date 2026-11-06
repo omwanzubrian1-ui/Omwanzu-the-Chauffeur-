@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Omwanzu The Chauffeur | Nakuru, Kenya',
@@ -17,4 +18,3 @@ export default function RootLayout({
     </html>
   );
 }
-
